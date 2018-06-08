@@ -1,0 +1,15 @@
+<h3>{{childTitle}}</h3>
+
+<p> {{studentMsg}}</p>
+
+<div>
+    First Name:<input (input)="student.fname=$event.target.value" /> <br/>
+    Last Name:<input (input)="student.lname=$event.target.value" />
+    <br/> <button (click)="addStudent()">Add Student</button>
+</div>
+<br/>
+<div>
+    First Number :<input (input)="num1=$event.target.value" /> <br/>
+    Second Number:<input (input)="num2=$event.target.value" /> <br/>
+    <br/> <button (click)="addNumber()">Add Number</button>
+</div>	
